@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 My favorite stack currently is:  
-TypeScript, NextJS, NestJS, GraphQL, PostgreSQL
+TypeScript, NextJS, NestJS, GraphQL, PostgreSQL, Prisma, Redux, Apollo Client|Server
 
 <!--
 **codekcv/codekcv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
