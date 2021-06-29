@@ -7,7 +7,7 @@ For smaller projects:
 React/NextJS, Chakra UI, [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
 
 **Goal**: I want to help make the world a better place before I die.  
-*(Note: For the whole animal kingdom and nature too, not just people.)*
+*(Note: For the whole animal kingdom and nature too, not just people stuff.)*
 
 <!--
 **codekcv/codekcv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
