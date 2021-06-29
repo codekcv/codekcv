@@ -3,8 +3,8 @@
 My favorite stack currently is:  
 TypeScript, NextJS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
 
-
-
+For smaller projects:  
+React/NextJS, Chakra UI, [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
 
 <!--
 **codekcv/codekcv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
