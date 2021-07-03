@@ -1,4 +1,5 @@
 ### Hi there 👋
+I'm Christian Villamin—core team @ https://reactjs.org.ph/
 
 My favorite stack currently is:  
 TypeScript, NextJS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
