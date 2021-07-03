@@ -1,11 +1,13 @@
 ### Hi there 👋
-I'm Christian Villamin—core team @ https://reactjs.org.ph/
+I'm Christian Villamin and I specialize on the web.   
+core team @ https://reactjs.org.ph/  
+mod @ [ReactJS Philippines](https://www.facebook.com/groups/reactjsphilippines)
 
 My favorite stack currently is:  
-TypeScript, NextJS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
+TypeScript, NextJS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
 
 For smaller projects:  
-React/NextJS, Chakra UI, [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
+React/NextJS, Chakra UI, styled-components or [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
 
 **Goal**: I want to help make the world a better place before I die.  
 *(Note: For the whole animal kingdom and nature too, not just people stuff.)*
