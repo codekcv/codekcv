@@ -2,6 +2,7 @@
 I'm Christian Villamin and I specialize on the web.   
 core team @ https://reactjs.org.ph/  
 mod @ [ReactJS Philippines](https://www.facebook.com/groups/reactjsphilippines)
+twitter @ https://twitter.com/codekcv
 
 My favorite stack currently is:  
 TypeScript, NextJS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
