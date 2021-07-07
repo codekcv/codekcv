@@ -10,6 +10,9 @@ TypeScript, NextJS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Serv
 For smaller projects:  
 React/NextJS, Chakra UI, styled-components or [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
 
+Exploring(Team Fast!):  
+[esbuild](https://github.com/evanw/esbuild), [fastify](https://www.fastify.io/), [mercurius](https://mercurius.dev/), [solidjs](https://www.solidjs.com/), [solid-urql](https://www.npmjs.com/package/solid-urql) 
+
 **Goal**: I want to help make the world a better place before I die.  
 *(Note: For the whole animal kingdom and nature too, not just people stuff.)*
 
