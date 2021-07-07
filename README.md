@@ -4,13 +4,13 @@ core team @ https://reactjs.org.ph/
 mod @ [ReactJS Philippines](https://www.facebook.com/groups/reactjsphilippines)  
 twitter @ https://twitter.com/codekcv
 
-My favorite stack currently is:  
+**My favorite stack currently is:**  
 TypeScript, NextJS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
 
-For smaller projects:  
+**For smaller projects:**  
 React/NextJS, Chakra UI, styled-components or [stitches](https://stitches.dev/), recoil, react-query, urql, MongoDB, serverless
 
-Exploring(Team Fast!):  
+**Exploring(Team Fast!):**  
 [esbuild](https://github.com/evanw/esbuild), [fastify](https://www.fastify.io/), [mercurius](https://mercurius.dev/), [solidjs](https://www.solidjs.com/), [solid-urql](https://www.npmjs.com/package/solid-urql) 
 
 **Goal**: I want to help make the world a better place before I die.  
