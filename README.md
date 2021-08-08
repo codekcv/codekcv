@@ -8,7 +8,7 @@ twitter @ https://twitter.com/codekcv
 TypeScript, NextJS, Tailwind CSS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
 
 **For smaller projects:**  
-React/Gatsby/Next.js, [styled-system](https://styled-system.com/) + styled-components, recoil, react-query, urql, MongoDB, serverless
+React/Gatsby/Next.js, styled-components / Chakra UI, zustand / recoil, react-query / SWR, MongoDB, serverless
 
 **Exploring(Team Fast!):**  
 [esbuild](https://github.com/evanw/esbuild), [fastify](https://www.fastify.io/), [mercurius](https://mercurius.dev/), [solidjs](https://www.solidjs.com/), [solid-urql](https://www.npmjs.com/package/solid-urql) 
