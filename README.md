@@ -5,7 +5,7 @@ mod @ [ReactJS Philippines](https://www.facebook.com/groups/reactjsphilippines)
 twitter @ https://twitter.com/codekcv
 
 **My favorite stack currently is:**  
-TypeScript, NextJS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
+TypeScript, NextJS, Tailwind CSS, SASS, GraphQL, Nexus, Prisma, PostgreSQL, Apollo Client|Server, Docker
 
 **For smaller projects:**  
 React/Gatsby/Next.js, [styled-system](https://styled-system.com/) + styled-components, recoil, react-query, urql, MongoDB, serverless
