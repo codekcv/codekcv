@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="heroTitle">
+<title id="heroTitle">Christian Villamin, software engineer in Manila, Philippines</title>
+<defs>
+  
+  <filter id="soften" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="62"/>
+  </filter>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B1020" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#0B1020" stop-opacity=".085"/>
+    <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1.35" fill="#0B1020" opacity="0.075"/>
+  </pattern>
+  <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FBFCFE"/>
+    <stop offset="1" stop-color="#F1F4FA"/>
+  </linearGradient>
+  <linearGradient id="nameG" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+    <stop offset="0" stop-color="#0B1020"/>
+    <stop offset=".42" stop-color="#0B1020"/>
+    <stop offset=".62" stop-color="#6D28D9"/>
+    <stop offset=".8" stop-color="#0E7490"/>
+    <stop offset="1" stop-color="#0B1020"/>
+    <animateTransform attributeName="gradientTransform" type="translate"
+      values="-1040 0; 1040 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="kickG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0E7490"/>
+    <stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <linearGradient id="ruleG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6D28D9" stop-opacity=".9"/>
+    <stop offset=".45" stop-color="#0E7490" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#0E7490" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#6D28D9" stop-opacity=".95"/>
+    <stop offset=".5" stop-color="#0E7490" stop-opacity=".7"/>
+    <stop offset="1" stop-color="#6D28D9" stop-opacity=".15"/>
+  </linearGradient>
+  <radialGradient id="coreG">
+    <stop offset="0" stop-color="#0B1020"/>
+    <stop offset=".55" stop-color="#0E7490"/>
+    <stop offset="1" stop-color="#6D28D9"/>
+  </radialGradient>
+  <radialGradient id="fadeMaskG">
+    <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+    <stop offset=".75" stop-color="#fff" stop-opacity=".25"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Scrim and vignette pull the aurora back off the type so the name keeps
+       its contrast in both themes without desaturating the background. -->
+  <linearGradient id="scrimG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBFCFE" stop-opacity=".82"/>
+    <stop offset=".5" stop-color="#FBFCFE" stop-opacity=".3"/>
+    <stop offset="1" stop-color="#FBFCFE" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vigG" cx=".5" cy=".5" r=".8">
+    <stop offset=".4" stop-color="#FBFCFE" stop-opacity="0"/>
+    <stop offset="1" stop-color="#FBFCFE" stop-opacity=".8"/>
+  </radialGradient>
+  <mask id="dotMask">
+    <rect width="1280" height="400" fill="url(#fadeMaskG)"/>
+  </mask>
+  
+  <path id="orbA" d="M -172,0 A 172,172 0 1 0 172,0 A 172,172 0 1 0 -172,0"/>
+  <path id="orbB" d="M -168,0 A 168,66 0 1 0 168,0 A 168,66 0 1 0 -168,0"/>
+  <path id="orbC" d="M -124,0 A 124,112 0 1 0 124,0 A 124,112 0 1 0 -124,0"/>
+  <clipPath id="frame"><rect width="1280" height="400" rx="22"/></clipPath>
+  <style>
+    .mono { font-family: ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',Arial,sans-serif; }
+    .ph { opacity: 0; animation: ph 16s linear infinite; }
+    .ph0 { animation-delay: 0s; }
+    .ph1 { animation-delay: 4s; }
+    .ph2 { animation-delay: 8s; }
+    .ph3 { animation-delay: 12s; }
+    @keyframes ph {
+      0%              { opacity: 0; transform: translateY(8px); }
+      2.813%   { opacity: 1; transform: translateY(0); }
+      21.563% { opacity: 1; transform: translateY(0); }
+      25.000%   { opacity: 0; transform: translateY(-8px); }
+      100%            { opacity: 0; transform: translateY(-8px); }
+    }
+    .blink { animation: blink 1.06s steps(1) infinite; }
+    @keyframes blink { 0%,49.9% { opacity: 1 } 50%,100% { opacity: 0 } }
+  </style>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1280" height="400" fill="url(#bgG)"/>
+  
+  <g filter="url(#soften)" opacity="0.16">
+    <ellipse cx="180" cy="90" rx="330" ry="210" fill="#6D28D9">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 70 -34; -42 -23.799999999999997; 0 0"
+        dur="19s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+    <ellipse cx="620" cy="380" rx="300" ry="180" fill="#0E7490">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -60 -40; 36 -28; 0 0"
+        dur="23s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+    <ellipse cx="1080" cy="150" rx="300" ry="240" fill="#4338CA">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 46 46; -27.599999999999998 32.199999999999996; 0 0"
+        dur="27s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+    <ellipse cx="1240" cy="400" rx="230" ry="160" fill="#BE185D">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -50 -30; 30 -21; 0 0"
+        dur="31s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+  </g>
+  <rect width="1280" height="400" fill="url(#dots)" mask="url(#dotMask)"/>
+  <rect width="1280" height="400" fill="url(#vigG)"/>
+  <rect width="921.5999999999999" height="400" fill="url(#scrimG)"/>
+
+  <!-- orbital system -->
+  <g transform="translate(1048 200)" opacity=".95">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="80s" repeatCount="indefinite"/>
+      <use href="#orbA" fill="none" stroke="url(#ringG)" stroke-width="1.1" opacity=".45"/>
+      <g transform="rotate(20)">
+        <use href="#orbB" fill="none" stroke="url(#ringG)" stroke-width="1.35"/>
+        <circle r="4.5" fill="#0E7490">
+          <animateMotion dur="11s" repeatCount="indefinite" rotate="auto"><mpath href="#orbB"/></animateMotion>
+        </circle>
+      </g>
+      <g transform="rotate(-58)">
+        <use href="#orbC" fill="none" stroke="url(#ringG)" stroke-width="1.35" opacity=".8"/>
+        <circle r="3.6" fill="#6D28D9">
+          <animateMotion dur="7.5s" repeatCount="indefinite" rotate="auto"><mpath href="#orbC"/></animateMotion>
+        </circle>
+      </g>
+      <g transform="rotate(74)">
+        <use href="#orbB" fill="none" stroke="url(#ringG)" stroke-width="1" opacity=".45"/>
+        <circle r="3" fill="#BE185D">
+          <animateMotion dur="15s" repeatCount="indefinite" rotate="auto"><mpath href="#orbB"/></animateMotion>
+        </circle>
+      </g>
+    </g>
+    <circle r="38" fill="#0E7490" opacity=".07">
+      <animate attributeName="opacity" values=".05;.15;.05" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" fill="url(#coreG)"/>
+    <circle r="7" fill="none" stroke="#0E7490" stroke-width="1.4">
+      <animate attributeName="r" values="7;46" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".85;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- identity block -->
+  <g>
+    <rect x="80" y="117" width="11" height="11" rx="2.5" fill="url(#kickG)">
+      <animateTransform attributeName="transform" type="rotate" values="0 85.5 122.5;90 85.5 122.5;90 85.5 122.5"
+        dur="6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.35;1" keySplines=".2 .8 .2 1;0 0 1 1"/>
+    </rect>
+    <text x="106" y="127" class="mono" font-size="13.5" letter-spacing="3.4" fill="#7A8798">SOFTWARE ENGINEER · MANILA, PHILIPPINES</text>
+
+    <text x="76" y="207" class="sans" font-size="62" font-weight="800" letter-spacing="-1.4"
+      fill="url(#nameG)">CHRISTIAN VILLAMIN</text>
+
+    <text x="80" y="264" class="mono" font-size="21" fill="#6D28D9" font-weight="700">&gt;</text>
+    <g class="ph ph0">
+      <text x="108" y="264" class="mono" font-size="21" fill="#4A566B">react 18 · typescript · vite · tanstack query</text>
+      <rect class="blink" x="680.9" y="246" width="10.7" height="21" fill="#0E7490"/>
+    </g>
+    <g class="ph ph1">
+      <text x="108" y="264" class="mono" font-size="21" fill="#4A566B">python · fastapi · sqlalchemy · azure</text>
+      <rect class="blink" x="579.9" y="246" width="10.7" height="21" fill="#0E7490"/>
+    </g>
+    <g class="ph ph2">
+      <text x="108" y="264" class="mono" font-size="21" fill="#4A566B">design systems that survive contact</text>
+      <rect class="blink" x="554.7" y="246" width="10.7" height="21" fill="#0E7490"/>
+    </g>
+    <g class="ph ph3">
+      <text x="108" y="264" class="mono" font-size="21" fill="#4A566B">spec-driven delivery, agents in the loop</text>
+      <rect class="blink" x="617.8" y="246" width="10.7" height="21" fill="#0E7490"/>
+    </g>
+
+    <rect x="80" y="302" width="620" height="1.4" fill="url(#ruleG)"/>
+    <text x="80" y="334" class="mono" font-size="14.5" fill="#7A8798">github.com/codekcv<tspan fill="#6D28D9">   ·   </tspan>codekcv.github.io<tspan fill="#6D28D9">   ·   </tspan>x.com/codekcv</text>
+  </g>
+
+  
+  <g transform="skewX(-18)" opacity="0.5">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="-700 0; 2000 0" dur="7s" repeatCount="indefinite"/>
+      <rect x="0" y="-400" width="190" height="1200" fill="url(#sweepG)"/>
+    </g>
+  </g>
+  <rect width="1280" height="400" filter="url(#grain)" opacity="0.03"/>
+</g>
+<rect x=".75" y=".75" width="1278.5" height="398.5" rx="21.5" fill="none" stroke="#DBE2ED" stroke-width="1.5"/>
+</svg>

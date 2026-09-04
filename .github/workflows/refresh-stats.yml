@@ -1,0 +1,46 @@
+name: Refresh stats card
+
+# Regenerates assets/stats-{dark,light}.svg from the GitHub GraphQL API and
+# commits them, so README.md never has to call a third-party card service at
+# render time.
+
+on:
+  schedule:
+    - cron: "23 20 * * *" # daily, near the end of a UTC+8 working day
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rebuild the stats card
+        env:
+          # STATS_TOKEN is optional. The default Actions token can be refused the
+          # contributions calendar, in which case the card falls back to showing
+          # a Following tile instead of the contributions one.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node scripts/build-stats.mjs "${{ github.repository_owner }}"
+
+      - name: Commit if the numbers moved
+        run: |
+          if git diff --quiet -- assets; then
+            echo "No change in the generated stats. Nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore(assets): refresh the stats card"
+          git push

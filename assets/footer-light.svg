@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-labelledby="footTitle">
+<title id="footTitle">Let us make something that lasts. github.com/codekcv, codekcv.github.io, x.com/codekcv</title>
+<defs>
+  
+  <filter id="soften" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="62"/>
+  </filter>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B1020" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#0B1020" stop-opacity=".085"/>
+    <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1.35" fill="#0B1020" opacity="0.075"/>
+  </pattern>
+  <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FBFCFE"/>
+    <stop offset="1" stop-color="#F1F4FA"/>
+  </linearGradient>
+  <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6D28D9"/>
+    <stop offset="1" stop-color="#4338CA"/>
+  </linearGradient>
+  <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0E7490"/>
+    <stop offset="1" stop-color="#0F766E"/>
+  </linearGradient>
+  <linearGradient id="w3" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#BE185D"/>
+    <stop offset="1" stop-color="#6D28D9"/>
+  </linearGradient>
+  <!-- Dissolves the wave stack into the background so it reads as a horizon
+       glow rather than a solid slab pinned to the bottom edge. -->
+  <linearGradient id="sink" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FBFCFE" stop-opacity="0"/>
+    <stop offset=".55" stop-color="#FBFCFE" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#FBFCFE" stop-opacity=".92"/>
+  </linearGradient>
+  <clipPath id="fframe"><rect width="1280" height="220" rx="22"/></clipPath>
+  <style>.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',Arial,sans-serif}</style>
+</defs>
+<g clip-path="url(#fframe)">
+  <rect width="1280" height="220" fill="url(#fbg)"/>
+  
+  <g filter="url(#soften)" opacity="0.16">
+    <ellipse cx="300" cy="220" rx="300" ry="150" fill="#6D28D9">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 60 -26; -36 -18.2; 0 0"
+        dur="20s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+    <ellipse cx="1000" cy="210" rx="300" ry="150" fill="#0E7490">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -55 -22; 33 -15.399999999999999; 0 0"
+        dur="26s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+  </g>
+  <rect width="1280" height="220" fill="url(#dots)" opacity=".55"/>
+  <circle cx="150" cy="0" r="2.4" fill="#0E7490" opacity="0">
+    <animate attributeName="cy" values="220;70.4" dur="15s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.6;0" dur="15s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="355" cy="0" r="1.7" fill="#0E7490" opacity="0">
+    <animate attributeName="cy" values="220;70.4" dur="19s" begin="-6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.6;0" dur="19s" begin="-6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="610" cy="0" r="2.9" fill="#0E7490" opacity="0">
+    <animate attributeName="cy" values="220;70.4" dur="13s" begin="-3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.6;0" dur="13s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="880" cy="0" r="1.9" fill="#0E7490" opacity="0">
+    <animate attributeName="cy" values="220;70.4" dur="21s" begin="-11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.6;0" dur="21s" begin="-11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1105" cy="0" r="2.5" fill="#0E7490" opacity="0">
+    <animate attributeName="cy" values="220;70.4" dur="17s" begin="-8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.6;0" dur="17s" begin="-8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="640" y="76" text-anchor="middle" class="sans" font-size="33" font-weight="700" fill="#0B1020" letter-spacing="-.4">Let's make something that lasts.</text>
+  <text x="640" y="110" text-anchor="middle" class="mono" font-size="15.5" fill="#7A8798" letter-spacing="1.1">github.com/codekcv<tspan fill="#6D28D9">   ·   </tspan>codekcv.github.io<tspan fill="#6D28D9">   ·   </tspan>x.com/codekcv</text>
+
+  <path fill="url(#w3)" opacity="0.3" d="M0,140 C 160,120 320,164 480,140 C 640,114 800,160 960,140 C 1120,120 1200,152 1280,140 L1280,220 L0,220 Z">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"
+      values="M0,140 C 160,120 320,164 480,140 C 640,114 800,160 960,140 C 1120,120 1200,152 1280,140 L1280,220 L0,220 Z;M0,156 C 160,136 320,142 480,118 C 640,92 800,174 960,154 C 1120,134 1200,168 1280,156 L1280,220 L0,220 Z;M0,140 C 160,120 320,164 480,140 C 640,114 800,160 960,140 C 1120,120 1200,152 1280,140 L1280,220 L0,220 Z"/>
+  </path>
+  <path fill="url(#w2)" opacity="0.4" d="M0,156 C 160,130 320,187.2 480,156 C 640,122.19999999999999 800,182 960,156 C 1120,130 1200,171.6 1280,156 L1280,220 L0,220 Z">
+    <animate attributeName="d" dur="11s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"
+      values="M0,156 C 160,130 320,187.2 480,156 C 640,122.19999999999999 800,182 960,156 C 1120,130 1200,171.6 1280,156 L1280,220 L0,220 Z;M0,176.8 C 160,150.8 320,158.6 480,127.4 C 640,93.6 800,200.2 960,174.2 C 1120,148.2 1200,192.4 1280,176.8 L1280,220 L0,220 Z;M0,156 C 160,130 320,187.2 480,156 C 640,122.19999999999999 800,182 960,156 C 1120,130 1200,171.6 1280,156 L1280,220 L0,220 Z"/>
+  </path>
+  <path fill="url(#w1)" opacity="0.62" d="M0,174 C 160,144 320,210 480,174 C 640,135 800,204 960,174 C 1120,144 1200,192 1280,174 L1280,220 L0,220 Z">
+    <animate attributeName="d" dur="8.5s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"
+      values="M0,174 C 160,144 320,210 480,174 C 640,135 800,204 960,174 C 1120,144 1200,192 1280,174 L1280,220 L0,220 Z;M0,198 C 160,168 320,177 480,141 C 640,102 800,225 960,195 C 1120,165 1200,216 1280,198 L1280,220 L0,220 Z;M0,174 C 160,144 320,210 480,174 C 640,135 800,204 960,174 C 1120,144 1200,192 1280,174 L1280,220 L0,220 Z"/>
+  </path>
+  <rect y="116" width="1280" height="104" fill="url(#sink)"/>
+  <rect width="1280" height="220" filter="url(#grain)" opacity="0.03"/>
+</g>
+<rect x=".75" y=".75" width="1278.5" height="218.5" rx="21.5" fill="none" stroke="#DBE2ED" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,40 @@
+name: Generate contribution snake
+
+# Renders the contribution graph as a snake game and pushes the two SVGs to the
+# `output` branch, which README.md points at. Nothing else lives on that branch.
+
+on:
+  schedule:
+    - cron: "17 18 * * *" # daily, after most of a UTC+8 working day is recorded
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Render the snake in both palettes
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Colours match the palette in scripts/build-assets.mjs. The `#` has to
+          # be percent-encoded because these are query strings.
+          outputs: |
+            dist/github-snake.svg?color_snake=%236D28D9&color_dots=%23EDF1F7,%23D8CFFA,%23B49CF5,%238B5CF6,%230E7490
+            dist/github-snake-dark.svg?color_snake=%238B5CF6&color_dots=%230E1219,%231E2A46,%233B3D8F,%236D5BE0,%2322D3EE
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

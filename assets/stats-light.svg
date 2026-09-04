@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 296" width="830" height="296" role="img" aria-labelledby="statsTitle">
+<title id="statsTitle">GitHub statistics for codekcv: 12 total stars, 74 public repositories, 15 followers, 1586 contributions in the last twelve months. Most used languages: TypeScript 53.6 percent, JavaScript 24.9 percent, HTML 10.5 percent, CSS 8.6 percent, Lua 1.8 percent, Shell 0.5 percent. Generated 2026-09-04.</title>
+<defs>
+  
+  <filter id="soften" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="62"/>
+  </filter>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0B1020" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#0B1020" stop-opacity=".085"/>
+    <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1.35" fill="#0B1020" opacity="0.075"/>
+  </pattern>
+  <linearGradient id="sbg" x1="0" y1="0" x2=".7" y2="1">
+    <stop offset="0" stop-color="#F1F4FA"/>
+    <stop offset="1" stop-color="#FBFCFE"/>
+  </linearGradient>
+  <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6D28D9"/>
+    <stop offset=".5" stop-color="#0E7490"/>
+    <stop offset="1" stop-color="#BE185D"/>
+  </linearGradient>
+  <clipPath id="sframe"><rect width="830" height="296" rx="16"/></clipPath>
+  <clipPath id="barClip">
+    <rect x="452" y="118" width="0" height="15" rx="7.5">
+      <animate attributeName="width" values="0;338" dur="1.1s" begin="0.5s"
+        fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
+    </rect>
+  </clipPath>
+  <style>
+    .mono { font-family: ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',Arial,sans-serif; }
+    /* One run, then it stays put. The image replays on each page load anyway. */
+    .rise { opacity: 0; animation: rise .55s cubic-bezier(.22,1,.36,1) both; }
+    .r0 { animation-delay: 0.10s; }
+    .r1 { animation-delay: 0.17s; }
+    .r2 { animation-delay: 0.24s; }
+    .r3 { animation-delay: 0.31s; }
+    .r4 { animation-delay: 0.60s; }
+    .r5 { animation-delay: 0.66s; }
+    .r6 { animation-delay: 0.72s; }
+    .r7 { animation-delay: 0.78s; }
+    .r8 { animation-delay: 0.84s; }
+    .r9 { animation-delay: 0.90s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+  </style>
+</defs>
+
+<g clip-path="url(#sframe)">
+  <rect width="830" height="296" fill="url(#sbg)"/>
+  <g opacity=".6">
+  <g filter="url(#soften)" opacity="0.16">
+    <ellipse cx="60" cy="40" rx="250" ry="180" fill="#6D28D9">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 54 30; -32.4 21; 0 0"
+        dur="22s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+    <ellipse cx="820" cy="300" rx="250" ry="180" fill="#0E7490">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -48 -30; 28.799999999999997 -21; 0 0"
+        dur="26s" repeatCount="indefinite" calcMode="spline"
+        keyTimes="0;0.33;0.66;1" keySplines=".4 0 .6 1;.4 0 .6 1;.4 0 .6 1"/>
+    </ellipse>
+  </g></g>
+  <rect width="830" height="296" fill="url(#dots)" opacity=".5"/>
+  <rect width="830" height="2.5" fill="url(#topline)"/>
+
+  <circle cx="45" cy="47" r="5" fill="#047857" class="pulse"/>
+  <text x="60" y="52" class="mono" font-size="12.5" letter-spacing="2.6" fill="#7A8798">LIVE FROM THE GITHUB API</text>
+  <text x="790" y="52" text-anchor="end" class="mono" font-size="12.5" letter-spacing="1.4" fill="#7A8798">updated 2026-09-04</text>
+  <rect x="40" y="70" width="750" height="1" fill="#DBE2ED"/>
+
+  <g class="rise r0">
+    <text x="40" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#B45309">12</text>
+    <text x="40" y="160" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">TOTAL STARS</text>
+  </g>
+  <g class="rise r1">
+    <text x="230" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#0E7490">74</text>
+    <text x="230" y="160" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">PUBLIC REPOS</text>
+  </g>
+  <g class="rise r2">
+    <text x="40" y="232" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#BE185D">15</text>
+    <text x="40" y="254" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">FOLLOWERS</text>
+  </g>
+  <g class="rise r3">
+    <text x="230" y="232" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#6D28D9">1,586</text>
+    <text x="230" y="254" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">CONTRIBUTIONS · 12MO</text>
+  </g>
+
+  <rect x="407" y="96" width="1" height="164" fill="#DBE2ED"/>
+
+  <text x="452" y="100" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">MOST USED LANGUAGES</text>
+  <rect x="452" y="118" width="338" height="15" rx="7.5" fill="#DBE2ED" opacity=".5"/>
+  <g clip-path="url(#barClip)">
+    <rect x="452.00" y="118" width="181.08" height="15" fill="#3178c6"/>
+    <rect x="633.08" y="118" width="84.05" height="15" fill="#f1e05a"/>
+    <rect x="717.13" y="118" width="35.39" height="15" fill="#e34c26"/>
+    <rect x="752.52" y="118" width="29.21" height="15" fill="#663399"/>
+    <rect x="781.73" y="118" width="6.21" height="15" fill="#000080"/>
+    <rect x="787.94" y="118" width="1.56" height="15" fill="#89e051"/>
+  </g>
+  <g class="rise r4">
+    <circle cx="457" cy="166" r="5" fill="#3178c6"/>
+    <text x="470" y="170" class="mono" font-size="13" fill="#4A566B">TypeScript</text>
+    <text x="624" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">53.6%</text>
+  </g>
+  <g class="rise r5">
+    <circle cx="647" cy="166" r="5" fill="#f1e05a"/>
+    <text x="660" y="170" class="mono" font-size="13" fill="#4A566B">JavaScript</text>
+    <text x="814" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">24.9%</text>
+  </g>
+  <g class="rise r6">
+    <circle cx="457" cy="193" r="5" fill="#e34c26"/>
+    <text x="470" y="197" class="mono" font-size="13" fill="#4A566B">HTML</text>
+    <text x="624" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">10.5%</text>
+  </g>
+  <g class="rise r7">
+    <circle cx="647" cy="193" r="5" fill="#663399"/>
+    <text x="660" y="197" class="mono" font-size="13" fill="#4A566B">CSS</text>
+    <text x="814" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">8.6%</text>
+  </g>
+  <g class="rise r8">
+    <circle cx="457" cy="220" r="5" fill="#000080"/>
+    <text x="470" y="224" class="mono" font-size="13" fill="#4A566B">Lua</text>
+    <text x="624" y="224" text-anchor="end" class="mono" font-size="13" fill="#7A8798">1.8%</text>
+  </g>
+  <g class="rise r9">
+    <circle cx="647" cy="220" r="5" fill="#89e051"/>
+    <text x="660" y="224" class="mono" font-size="13" fill="#4A566B">Shell</text>
+    <text x="814" y="224" text-anchor="end" class="mono" font-size="13" fill="#7A8798">0.5%</text>
+  </g>
+
+  
+  <g transform="skewX(-18)" opacity="0.5">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="-700 0; 2000 0" dur="9s" repeatCount="indefinite"/>
+      <rect x="0" y="-296" width="190" height="888" fill="url(#sweepG)"/>
+    </g>
+  </g>
+  <rect width="830" height="296" filter="url(#grain)" opacity="0.03"/>
+</g>
+<rect x=".75" y=".75" width="828.5" height="294.5" rx="15.5" fill="none" stroke="#DBE2ED" stroke-width="1.5"/>
+</svg>
