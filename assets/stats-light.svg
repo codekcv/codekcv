@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 296" width="830" height="296" role="img" aria-labelledby="statsTitle">
-<title id="statsTitle">GitHub statistics for codekcv: 12 total stars, 74 public repositories, 15 followers, 1589 contributions in the last twelve months. Most used languages: TypeScript 53.6 percent, JavaScript 24.9 percent, HTML 10.5 percent, CSS 8.6 percent, Lua 1.8 percent, Shell 0.5 percent. Generated 2026-09-04.</title>
+<title id="statsTitle">GitHub statistics for codekcv: 13 total stars, 75 public repositories, 15 followers, 1610 contributions in the last twelve months. Most used languages: TypeScript 51.5 percent, JavaScript 26.3 percent, HTML 11.2 percent, CSS 8.3 percent, Lua 1.8 percent, Shell 0.4 percent. Generated 2026-09-04.</title>
 <defs>
   
   <filter id="soften" x="-60%" y="-60%" width="220%" height="220%">
@@ -89,11 +89,11 @@
   <rect x="40" y="70" width="750" height="1" fill="#DBE2ED"/>
 
   <g class="rise r0">
-    <text x="40" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#B45309">12</text>
+    <text x="40" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#B45309">13</text>
     <text x="40" y="160" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">TOTAL STARS</text>
   </g>
   <g class="rise r1">
-    <text x="230" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#0E7490">74</text>
+    <text x="230" y="138" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#0E7490">75</text>
     <text x="230" y="160" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">PUBLIC REPOS</text>
   </g>
   <g class="rise r2">
@@ -101,7 +101,7 @@
     <text x="40" y="254" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">FOLLOWERS</text>
   </g>
   <g class="rise r3">
-    <text x="230" y="232" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#6D28D9">1,589</text>
+    <text x="230" y="232" class="sans" font-size="42" font-weight="800" letter-spacing="-1.4" fill="#6D28D9">1,610</text>
     <text x="230" y="254" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">CONTRIBUTIONS · 12MO</text>
   </g>
 
@@ -110,32 +110,32 @@
   <text x="452" y="100" class="mono" font-size="11" letter-spacing="1.9" fill="#7A8798">MOST USED LANGUAGES</text>
   <rect x="452" y="118" width="338" height="15" rx="7.5" fill="#DBE2ED" opacity=".5"/>
   <g clip-path="url(#barClip)">
-    <rect x="452.00" y="118" width="181.08" height="15" fill="#3178c6"/>
-    <rect x="633.08" y="118" width="84.05" height="15" fill="#f1e05a"/>
-    <rect x="717.13" y="118" width="35.39" height="15" fill="#e34c26"/>
-    <rect x="752.52" y="118" width="29.21" height="15" fill="#663399"/>
-    <rect x="781.73" y="118" width="6.21" height="15" fill="#000080"/>
-    <rect x="787.94" y="118" width="1.56" height="15" fill="#89e051"/>
+    <rect x="452.00" y="118" width="174.17" height="15" fill="#3178c6"/>
+    <rect x="626.17" y="118" width="89.00" height="15" fill="#f1e05a"/>
+    <rect x="715.17" y="118" width="37.91" height="15" fill="#e34c26"/>
+    <rect x="753.09" y="118" width="28.09" height="15" fill="#663399"/>
+    <rect x="781.18" y="118" width="5.97" height="15" fill="#000080"/>
+    <rect x="787.15" y="118" width="1.50" height="15" fill="#89e051"/>
   </g>
   <g class="rise r4">
     <circle cx="457" cy="166" r="5" fill="#3178c6"/>
     <text x="470" y="170" class="mono" font-size="13" fill="#4A566B">TypeScript</text>
-    <text x="624" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">53.6%</text>
+    <text x="624" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">51.5%</text>
   </g>
   <g class="rise r5">
     <circle cx="647" cy="166" r="5" fill="#f1e05a"/>
     <text x="660" y="170" class="mono" font-size="13" fill="#4A566B">JavaScript</text>
-    <text x="814" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">24.9%</text>
+    <text x="814" y="170" text-anchor="end" class="mono" font-size="13" fill="#7A8798">26.3%</text>
   </g>
   <g class="rise r6">
     <circle cx="457" cy="193" r="5" fill="#e34c26"/>
     <text x="470" y="197" class="mono" font-size="13" fill="#4A566B">HTML</text>
-    <text x="624" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">10.5%</text>
+    <text x="624" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">11.2%</text>
   </g>
   <g class="rise r7">
     <circle cx="647" cy="193" r="5" fill="#663399"/>
     <text x="660" y="197" class="mono" font-size="13" fill="#4A566B">CSS</text>
-    <text x="814" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">8.6%</text>
+    <text x="814" y="197" text-anchor="end" class="mono" font-size="13" fill="#7A8798">8.3%</text>
   </g>
   <g class="rise r8">
     <circle cx="457" cy="220" r="5" fill="#000080"/>
@@ -145,7 +145,7 @@
   <g class="rise r9">
     <circle cx="647" cy="220" r="5" fill="#89e051"/>
     <text x="660" y="224" class="mono" font-size="13" fill="#4A566B">Shell</text>
-    <text x="814" y="224" text-anchor="end" class="mono" font-size="13" fill="#7A8798">0.5%</text>
+    <text x="814" y="224" text-anchor="end" class="mono" font-size="13" fill="#7A8798">0.4%</text>
   </g>
 
   
