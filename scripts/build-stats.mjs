@@ -13,7 +13,7 @@
  */
 
 import { execFileSync } from "node:child_process";
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -80,6 +80,17 @@ async function fetchStats() {
   return json.data.user;
 }
 
+/** The previously committed figures, used only as a fallback. */
+function readPrevious() {
+  const file = join(OUT, "stats.json");
+  if (!existsSync(file)) return null;
+  try {
+    return JSON.parse(readFileSync(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 function shape(user) {
   const repos = user.repositories.nodes;
   const stars = repos.reduce((n, r) => n + r.stargazerCount, 0);
@@ -103,7 +114,19 @@ function shape(user) {
       color: colors.get(name) ?? "#8B5CF6",
     }));
 
+  // A repo-scoped Actions token can be refused contributionsCollection while the
+  // rest of the query still resolves. Carrying the last committed figure forward
+  // is better than letting the tile silently become something else: the daily
+  // refresh must never make the card worse than the one it replaces.
   const c = user.contributionsCollection;
+  const previous = readPrevious();
+  const carried = (live, key) => live ?? previous?.[key] ?? null;
+  if (c?.contributionCalendar?.totalContributions == null && previous?.contributions != null) {
+    console.warn(
+      `  ! contributions unavailable to this token; carrying forward ${previous.contributions}`,
+    );
+  }
+
   return {
     login: LOGIN,
     generated: new Date().toISOString(),
@@ -111,10 +134,10 @@ function shape(user) {
     repos: user.repositories.totalCount,
     followers: user.followers.totalCount,
     following: user.following.totalCount,
-    contributions: c?.contributionCalendar?.totalContributions ?? null,
-    commits: c?.totalCommitContributions ?? null,
-    pullRequests: c?.totalPullRequestContributions ?? null,
-    reviews: c?.totalPullRequestReviewContributions ?? null,
+    contributions: carried(c?.contributionCalendar?.totalContributions, "contributions"),
+    commits: carried(c?.totalCommitContributions, "commits"),
+    pullRequests: carried(c?.totalPullRequestContributions, "pullRequests"),
+    reviews: carried(c?.totalPullRequestReviewContributions, "reviews"),
     languages,
   };
 }
