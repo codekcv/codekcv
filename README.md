@@ -8,9 +8,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-dark.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-light.svg?v=3">
-    <img alt="Christian Villamin, software engineer in Manila, Philippines" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-dark.svg?v=3" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-light.svg?v=4">
+    <img alt="Christian Villamin, software engineer in Manila, Philippines" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/hero-dark.svg?v=4" width="100%">
   </picture>
 </div>
 
@@ -40,9 +40,9 @@ being fairly opinionated about the pipeline in between.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-dark.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-light.svg?v=3">
-    <img alt="Terminal session listing the current stack: React 18, TypeScript, Vite, TanStack and Tailwind on the front end; Python, FastAPI, SQLAlchemy and Azure on the back end; Konva canvas and embedded analytics; trunk-based, spec-driven delivery; core team at ReactJS Philippines" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-dark.svg?v=3" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-light.svg?v=4">
+    <img alt="Terminal session listing the current stack: React 18, TypeScript, Vite, TanStack and Tailwind on the front end; Python, FastAPI, SQLAlchemy and Azure on the back end; Konva canvas and embedded analytics; trunk-based, spec-driven delivery; core team at ReactJS Philippines" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/terminal-dark.svg?v=4" width="100%">
   </picture>
 </div>
 
@@ -93,9 +93,9 @@ being fairly opinionated about the pipeline in between.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-dark.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-light.svg?v=3">
-    <img alt="GitHub statistics: total stars, public repositories, followers, contributions in the last twelve months, and most used languages" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-dark.svg?v=3" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-light.svg?v=4">
+    <img alt="GitHub statistics: total stars, public repositories, followers, contributions in the last twelve months, and most used languages" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/stats-dark.svg?v=4" width="100%">
   </picture>
 </div>
 
@@ -153,8 +153,8 @@ image URLs so camo re-fetches.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-dark.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-light.svg?v=3">
-    <img alt="Let's make something that lasts. github.com/codekcv, codekcv.github.io, x.com/codekcv" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-dark.svg?v=3" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-light.svg?v=4">
+    <img alt="Let's make something that lasts. github.com/codekcv, codekcv.github.io, x.com/codekcv" src="https://raw.githubusercontent.com/codekcv/codekcv/main/assets/footer-dark.svg?v=4" width="100%">
   </picture>
 </div>

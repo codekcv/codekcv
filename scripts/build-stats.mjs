@@ -221,22 +221,31 @@ function card(t, s) {
     <stop offset="1" stop-color="${t.pink}"/>
   </linearGradient>
   <clipPath id="sframe"><rect width="${W}" height="${H}" rx="16"/></clipPath>
+  <!-- Base width is the full bar, not 0: a renderer that ignores SMIL then shows a
+       complete bar instead of an empty track. begin="0s" means the animated value
+       takes over immediately, so the full width never flashes first. -->
   <clipPath id="barClip">
-    <rect x="${barX}" y="${barY}" width="0" height="15" rx="7.5">
-      <animate attributeName="width" values="0;${barW}" dur="1.1s" begin="0.5s"
+    <rect x="${barX}" y="${barY}" width="${barW}" height="15" rx="7.5">
+      <animate attributeName="width" values="0;${barW}" dur="1.2s" begin="0s"
         fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".22 1 .36 1"/>
     </rect>
   </clipPath>
   <style>
     .mono { font-family: ${MONO}; }
     .sans { font-family: ${SANS}; }
-    /* One run, then it stays put. The image replays on each page load anyway. */
-    .rise { opacity: 0; animation: rise .55s cubic-bezier(.22,1,.36,1) both; }
+    /* No base opacity:0 here. The keyframes plus fill-mode "both" hide the element
+       while it waits its turn, but the resting state stays visible, so the card
+       still reads if the animation never runs: reduced motion, a static
+       rasteriser, or a re-raster that restarts the one-shot mid-scroll. */
+    .rise { animation: rise .55s cubic-bezier(.22,1,.36,1) both; }
     ${tiles.map((_, i) => `.r${i} { animation-delay: ${(0.1 + i * 0.07).toFixed(2)}s; }`).join("\n    ")}
     ${s.languages.map((_, i) => `.r${i + 4} { animation-delay: ${(0.6 + i * 0.06).toFixed(2)}s; }`).join("\n    ")}
     @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }
     .pulse { animation: pulse 2.4s ease-in-out infinite; }
     @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .pulse { animation: none; }
+    }
   </style>
 </defs>
 
